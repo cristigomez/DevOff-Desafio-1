@@ -1,0 +1,31 @@
+body{
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 120px;
+    color: darkslateblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+main span img{
+    width: 20%;
+    border-radius: 10px;
+    margin: 20px;
+    top: 20px;
+}
+
+main span img:hover{
+    transform: scale(1.8);
+    transition-duration: 1.5s;
+    border-radius: 50px;
+}
